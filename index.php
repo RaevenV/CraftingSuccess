@@ -7,7 +7,7 @@ if (!isset($_SESSION['csrftoken'])) {
 }
 
 
-$indexHeader = "images/index-header.jpg";
+$indexHeader = "images/index-header.png";
 
 
 if (isset($_GET["event_id"])) {
@@ -81,13 +81,13 @@ unset($_SESSION["selected_items"]);
     </style>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ7KCY26CT"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP4SP401L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-GJ7KCY26CT');
+        gtag('config', 'G-CYP4SP401L');
     </script>
 </head>
 
@@ -199,9 +199,9 @@ unset($_SESSION["selected_items"]);
             var contentForceMobile = document.querySelector('.content-force-mobile');
             function updateImageHeight() {
                 if (contentForceMobile.offsetWidth > 480) {
-                    indexHeaderImg.style.height = '450px';
+                    indexHeaderImg.style.height = '500px';
                 } else {
-                    indexHeaderImg.style.height = '360px';
+                    indexHeaderImg.style.height = '400px';
                 }
             }
 

@@ -153,7 +153,7 @@ foreach ($_SESSION["info_data"] as $registrar) {
     }
 
 if ($_SESSION["event_id"] == $GLOBALS['event_id']) {
-    $welcomeImg = "images/index-header.jpg";
+    $welcomeImg = "images/welcome-err.png";
 } else if ($_SESSION["event_id"] == $GLOBALS['event_id_surabaya']) {
     $ticketImg = "images/ticket-surabaya.png";
     $welcomeImg = "images/welcome-sby.png";
@@ -218,13 +218,13 @@ if (isset($_GET["error"])) {
     </style>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ7KCY26CT"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP4SP401L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-GJ7KCY26CT');
+        gtag('config', 'G-CYP4SP401L');
     </script>
 
 </head>
@@ -252,7 +252,7 @@ if (isset($_GET["error"])) {
                             <?php endif; ?> -->
 
                             <div style="padding-top:30px;font-size:22px;color:black;font-weight:700;">
-                                Welcome to the event!
+                                See you at the event!
                             </div>
                             
                             
@@ -283,9 +283,9 @@ if (isset($_GET["error"])) {
             var contentForceMobile = document.querySelector('.content-force-mobile');
             function updateImageHeight() {
                 if (contentForceMobile.offsetWidth > 480) {
-                    indexHeaderImg.style.height = '450px';
+                    indexHeaderImg.style.height = '480px';
                 } else {
-                    indexHeaderImg.style.height = '360px';
+                    indexHeaderImg.style.height = '400px';
                 }
             }
 

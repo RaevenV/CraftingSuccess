@@ -151,13 +151,13 @@ if (isset($_GET["error"])) {
         href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ7KCY26CT"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP4SP401L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-GJ7KCY26CT');
+        gtag('config', 'G-CYP4SP401L');
     </script>
 </head>
 
